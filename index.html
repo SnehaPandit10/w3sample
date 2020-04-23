@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>w3Sample</title>
+    <link rel="stylesheet" href="ws.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <!-- <script>// type="text/JavaScript">
+ $(document).ready(function(){
+     $('.mydiv').hide();
+     $('#html').click(function(){
+         $('.mydiv').toggle(2000);
+     });
+ });
+ </script> -->
+ <script>
+    $(document).ready(function(){
+         $('.html').hide();
+     $('.css').hide();    
+     $('.bootstrap').hide();
+     $('.javascript').hide();
+      $('.php').hide();
+     $('.jquery').hide();  
+ 
+      $('#js').click(function(){
+         $('.javascript').show();
+           $('.bootstrap').hide();
+         $('.html').hide();
+         $('.jquery').hide();
+         $('.php').hide(); 
+         $('.css').hide(); 
+         $('#head').hide();     
+     });
+      $('#ph').click(function(){
+         $('.php').show();
+         $('.bootstrap').hide();
+         $('.html').hide();
+         $('.jquery').hide();
+         $('.javascript').hide(); 
+         $('.css').hide(); 
+         $('#head').hide(); 
+          
+     });
+      $('#jq').click(function(){
+         $('.jquery').show();
+          $('.bootstrap').hide();
+         $('.html').hide();
+         $('.javascript').hide();
+         $('.php').hide(); 
+         $('.css').hide(); 
+         $('#head').hide();    
+     });
+      $('#bs').click(function(){
+         $('.bootstrap').show();
+         $('.javascript').hide();
+         $('.html').hide();
+         $('.jquery').hide();
+         $('.php').hide(); 
+         $('.css').hide(); 
+         $('#head').hide();     
+     });
+
+     $('#ht').click(function(){
+         $('.html').show();
+         $('.bootstrap').hide();
+         $('.javascript').hide();
+         $('.jquery').hide();
+         $('.php').hide(); 
+         $('.css').hide(); 
+         $('#head').hide(); 
+     });
+       $('#cs').click(function(){
+         $('.css').show();
+          $('.bootstrap').hide();
+         $('.html').hide();
+         $('.jquery').hide();
+         $('.php').hide(); 
+         $('.javascript').hide(); 
+         $('#head').hide(); 
+     });
+    });
+   $(document).ready(function(){
+       $('.htmldiv').hide();
+       $('#htmlbut').click(function(){
+           $('.htmldiv').toggle(2000);
+       });
+   });
+
+   $(document).ready(function(){
+       $('.cssdiv').hide();
+       $('#cssbut').click(function(){
+           $('.cssdiv').toggle(2000);
+       });
+   });
+   $(document).ready(function(){
+       $('.bootdiv').hide();
+       $('#bootbut').click(function(){
+           $('.bootdiv').toggle(2000);
+       });
+   });
+
+   $(document).ready(function(){
+       $('.jsdiv').hide();
+       $('#jsbut').click(function(){
+           $('.jsdiv').toggle(2000);
+       });
+   });
+
+   $(document).ready(function(){
+       $('.jqdiv').hide();
+       $('#jqbut').click(function(){
+           $('.jqdiv').toggle(2000);
+       });
+   });
+
+   $(document).ready(function(){
+       $('.phpdiv').hide();
+       $('#phpbut').click(function(){
+           $('.phpdiv').toggle(2000);
+       });
+   });
+   </script>
+   
+  </head>
+  <body>
+  <div class="row">
+     <div class="col-*-* sidebar">
+        <header >w3Sample</header>
+            <ul>
+                <li id="ht"><a href="#html" class="ho">HTML</a></li>
+                <li id="cs"><a href="#css" class="ho">CSS</a></li>
+                <li id="bs"><a href="#bootstrap" class="ho">Bootstrap</a></li>
+                <li id="js"><a href="#JavaScript" class="ho">JavaScript</a></li>
+                <li id="jq"><a href="#jQuery" class="ho">jQuery</a></li>
+                <li id="ph"><a href="#php" class="ho">PHP</a></li>
+            </ul>
+     </div>
+     <div class="col-*-* main">
+     <div id="head"><h1 >Welcome to w3Sample</h1></div>
+     <div class="html">
+     <h2 class="topic">HTML</h2>
+     <h5>
+        Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. 
+        It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+        <br><br>
+        Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages.
+         HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+        <br><br>
+        
+        <button class="btn btn-info" id="htmlbut">See more</button>
+        <br><br>
+        <h5 class="htmldiv">
+        HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms
+         may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics 
+         for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using 
+         angle brackets. 
+         <br><br>
+          Other tags provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags,
+          but use them to interpret the content of the page.
+
+        HTML can embed programs written in a scripting language such as JavaScript, 
+        which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. 
+        The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, 
+        has encouraged the use of CSS over explicit presentational HTML since 1997.
+        <br><br>
+        <a href="https://www.w3schools.com/html/default.asp">Click here </a>to learn.
+        </h5>
+    </h5>
+    </div>
+    <div class="css">
+    <h2 class="topic">CSS</h2>
+    <h5>
+    Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.
+    CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+    <br><br>
+    CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.
+    This separation can improve content accessibility, provide more flexibility
+    and control in the specification of presentation characteristics, 
+    enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file,
+    and reduce complexity and repetition in the structural content.
+     <br><br>
+        <button class="btn btn-info" id="cssbut">See more</button>
+        <br><br>
+        <h5 class="cssdiv">
+
+    Separation of formatting and content also makes it feasible to present the same markup page in different 
+    styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or
+    screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the
+     content is accessed on a mobile device.
+     <br><br>
+
+    The name cascading comes from the specified priority scheme to determine which style rule applies if 
+        more than one rule matches a particular element. This cascading priority scheme is predictable.
+   The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type)
+   text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service
+  for CSS documents.
+  <br><br>
+  <a href="https://www.w3schools.com/css/default.asp">Click here </a>to learn.
+  </h5>
+    </h5>
+    </div>
+    <div class="bootstrap">
+    <h2 class="topic">Bootstrap</h2>
+    <h5>
+    Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. 
+    It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation,
+     and other interface components.
+     <br><br>
+    Bootstrap is the sixth-most-starred project on GitHub, with more than 135,000 stars, behind freeCodeCamp 
+    (almost 307,000 stars) and marginally behind Vue.js framework.According to Alexa Rank, 
+    Bootstrap is in the top-2000 in US while vuejs.org is in top-7000 in US.
+    <br><br>
+        <button class="btn btn-info" id="bootbut">See more</button>
+        <br><br>
+        <h5 class="bootdiv">
+    Bootstrap is a web framework that focuses on simplifying the development of informative web pages 
+    (as opposed to web apps). The primary purpose of adding it to a web project is to apply Bootstrap's 
+    choices of color, size, font and layout to that project. As such, the primary factor is whether the 
+    developers in charge find those choices to their liking. Once added to a project, Bootstrap provides 
+    basic style definitions for all HTML elements. The result is a uniform appearance for prose, tables and 
+    form elements across web browsers. In addition, developers can take advantage of CSS classes defined in 
+    Bootstrap to further customize the appearance of their contents. For example, Bootstrap has provisioned for
+     light- and dark-colored tables, page headings, more prominent pull quotes, and text with a highlight.
+     <br><br>
+     Bootstrap also comes with several JavaScript components in the form of jQuery plugins. 
+     They provide additional user interface elements such as dialog boxes, tooltips, and carousels.
+      Each Bootstrap component consists of an HTML structure, CSS declarations, and in some cases accompanying 
+      JavaScript code. They also extend the functionality of some existing interface elements, including for
+       example an auto-complete function for input fields.
+       <br><br>
+       <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">Click here </a>to learn.
+    </h5>
+    </h5>
+    </div>
+    <div class="javascript">
+    <h2 class="topic">JavaScript</h2>
+    <h5>
+    JavaScript  often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.
+     JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, 
+     dynamic typing, prototype-based object-orientation, and first-class functions.
+     <br><br>
+     Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web.
+      JavaScript enables interactive web pages and is an essential part of web applications. 
+      The vast majority of websites use it for client-side page behavior,[9] and all major web browsers have a 
+      dedicated JavaScript engine to execute it.
+      <br><br>
+        <button class="btn btn-info" id="jsbut">See more</button>
+        <br><br>
+        <h5 class="jsdiv">
+      As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative programming styles.
+       It has application programming interfaces (APIs) for working with text, dates, regular expressions, 
+       standard data structures, and the Document Object Model (DOM). However, the language itself does not 
+       include any input/output (I/O), such as networking, storage, or graphics facilities, as the host environment 
+       (usually a web browser) provides those APIs.
+       <br><br>
+       JavaScript engines were originally used only in web browsers, but they are now embedded in some servers, 
+       usually via Node.js. They are also embedded in a variety of applications created with frameworks such as 
+       Electron and Cordova.
+       <br><br>
+       Although there are similarities between JavaScript and Java, including language name, syntax, and 
+       respective standard libraries, the two languages are distinct and differ greatly in design.
+       <br><br>
+       <a href="https://www.w3schools.com/js/default.asp">Click here </a>to learn.
+    </h5>
+    </h5>
+    </div>
+    <div class="jquery">
+    <h2 class="topic">jQuery</h2>
+    <h5>
+    jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation,
+     as well as event handling, CSS animation, and Ajax.It is free, open-source software using the permissive
+      MIT License.[3] As of May 2019, jQuery is used by 73% of the 10 million most popular websites.
+      Web analysis indicates that it is the most widely deployed JavaScript library by a large margin, 
+      having 3 to 4 times more usage than any other JavaScript library.
+      <br><br>
+        <button class="btn btn-info" id="jqbut">See more</button>
+        <br><br>
+        <h5 class="jqdiv">
+      jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, 
+      create animations, handle events, and develop Ajax applications. 
+      jQuery also provides capabilities for developers to create plug-ins on top of the JavaScript library.
+       This enables developers to create abstractions for low-level interaction and animation, 
+       advanced effects and high-level, themeable widgets. The modular approach to the jQuery
+        library allows the creation of powerful dynamic web pages and Web applications.
+        <br><br>
+        <a href="https://www.w3schools.com/jquery/default.asp">Click here </a>to learn.
+    </h5>
+
+    </h5>
+    </div>
+    <div class="php">
+    <h2 class="topic">PHP</h2>
+    <h5>
+    PHP is a popular general-purpose scripting language that is especially suited to web development.
+     It was originally created by Rasmus Lerdorf in 1994;the PHP reference implementation is now produced by 
+     The PHP Group.[7] PHP originally stood for Personal Home Page,but it now stands for the recursive 
+     initialism PHP: Hypertext Preprocessor.
+     <br><br>
+        <button class="btn btn-info" id="phpbut">See more</button>
+        <br><br>
+        <h5 class="phpdiv">
+     PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a 
+     daemon or as a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted 
+     and executed PHP code – which may be any type of data, such as generated HTML or binary image data – would 
+     form the whole or part of a HTTP response. Various web template systems, web content management systems, 
+     and web frameworks exist which can be employed to orchestrate or facilitate the generation of that response.
+      Additionally, PHP can be used for many programming tasks outside of the web context, such as standalone 
+      graphical applicationsand robotic drone control. Arbitrary PHP code can also be interpreted and
+       executed via command line interface (CLI).
+       <br><br>
+
+       The standard PHP interpreter, powered by the Zend Engine, is free software released under the PHP License. 
+       PHP has been widely ported and can be deployed on most web servers on almost every operating system and
+        platform, free of charge.
+        <br><br>
+        
+        The PHP language evolved without a written formal specification or standard until 2014, 
+        with the original implementation acting as the de facto standard which other implementations aimed to follow. 
+        Since 2014, work has gone on to create a formal PHP specification.
+        <br><br>
+        <a href="https://www.w3schools.com/php/default.asp">Click here </a>to learn.
+    </h5>
+
+    </h5>
+    </div>
+     
+    
+
+
+
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
